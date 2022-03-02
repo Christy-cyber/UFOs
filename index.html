@@ -15,11 +15,11 @@
     <!-- Add a link to our stylesheet; link to the style.css file in the css folder -->
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
+<body class = "bg-dark">
     <!-- // Group elements and specify styling within 'wrapper' -->
     <div class="wrapper">
         <!-- // Build Navbar (component fits across top of page and is responsive to screen size) -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <!-- // Reset webpage after a filter has been applied to the table by linking to index.html
             // navbar-brand adds built-in style from Bootstrap; href points to index.html
             // text to display is 'UFO sightings' -->
@@ -27,7 +27,7 @@
         </nav>
     <!-- Add title/Jumbotron using jumbotron components-->
     <div class="jumbotron">
-        <h1>The Truth Is Out There</h1>
+        <h1 class = "display-4">The Truth Is Out There</h1>
     </div> 
     <!-- Add article title and paragraph using grid system: container, rows and columns--> 
     <!-- Container-fluid to div ensures both elements will span width of viewport --> 
@@ -51,23 +51,23 @@
             <!-- Add columns-->
             <div class="col-md-3">
                 <!-- Build filter using form tag-->
-                <form>
+                <form class = "bg-dark">
                     <p>Filter Search</p>
                     <!-- Create set of list tags nested within unordered tag list and boostrap-->
                     <!-- Add an input box for date and reference filter-btn-->
                     <!-- Create the unordered list called --class = 'list-group'-->
-                    <ul class="list-group">
+                    <ul class="list-group" class = "bg-dark" style="list-style: none;">
                         <!-- Add list items: one for input, one for button-->
-                        <li class="list-group-item">
+                        <li class = "bg-dark text-center">
                             <!-- Add date input field -->
                             <!-- Add label first -->
                             <label for="date">Enter Date</label>
                             <!-- Add input -->
                             <input type="text" placeholder="1/10/2010" id="datetime" />
                         </li>
-                        <li class="list-group-item">
+                        <li class = "bg-dark">
                             <!-- Add a button and reference filter-btn in app.py-->
-                            <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                            <button id="filter-btn" type="button" class="btn btn-dark btn-block border">Filter Table</button>
                         </li>
                     </ul>
                 </form>
