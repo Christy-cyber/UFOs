@@ -7,7 +7,7 @@ The purpose of this project was to create a visually interesting website about U
 - Image Source: nasa.jpg
 
 ## Results
-Five search fields are included in the filter search for date, city, state, country, and shape. Once information for any of the desired fields is entered, click "Enter" to search.  Note that search criteria must be entered exactly as it is presented in the table or will not produced desired results.  Here are a few examples:
+Five search fields are included in the filter search for date, city, state, country, and shape. Once information for any of the desired fields is entered, click "Enter" to search.  Note that search criteria must be entered exactly as it is presented in the table or will not produce desired results.  Here are a few examples:
 
 **Search by a Single Criterion**
 
