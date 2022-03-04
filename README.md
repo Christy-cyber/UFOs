@@ -25,7 +25,7 @@ Five search fields are included in the filter search for date, city, state, coun
 **Additional Caveats**
  - **City:**  Spell city names with all lowercase letters.
  - **State:**  Use US state postal abbreviations presented in all lowercase letters or Canadian province abbreviations presented in all lowercase letters.
- - **Countries:**  Only the United States (us) and Canada (ca) are included for countries in this dataset.  Use lowercase abbreviations for both.
+ - **Country:**  Only the United States (us) and Canada (ca) are included for countries in this dataset.  Use lowercase abbreviations for both.
  - **Shape:**  Multiple shapes for UFOs are included within the table.  It is recommended to review the entire table to see the range of shape types before entering a shape into the search field.
 
 
