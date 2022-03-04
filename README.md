@@ -1,6 +1,6 @@
 # UFOs
 ## Project Overview
-The purpose of this project was to create a visually interesting website about UFO's.  Within this site, one can apply search filters individually or in combination in order to search for UFO sightings within the table included on the UFO webpage.  UFO sightings can be searched by date, city, state, country, and shape.
+The purpose of this project was to create a visually interesting website about UFOs.  Within this site, one can apply search filters individually or in combination in order to search for UFO sightings within the table included on the UFO webpage.  UFO sightings can be searched by date, city, state, country, and shape.
 
 ## Resources
 - Data Source: data.js
@@ -26,7 +26,7 @@ Five search fields are included in the filter search for date, city, state, coun
  - **City:**  Spell city names with all lowercase letters.
  - **State:**  Use US state postal abbreviations presented in all lowercase letters or Canadian province abbreviations presented in all lowercase letters.
  - **Countries:**  Only the United States (us) and Canada (ca) are included for countries in this dataset.  Use lowercase abbreviations for both.
- - **Shape:**  Multiple shapes for UFO's are included within the table.  It is recommended to review the entire table to see the range of shape types before entering a shape into the search field.
+ - **Shape:**  Multiple shapes for UFOs are included within the table.  It is recommended to review the entire table to see the range of shape types before entering a shape into the search field.
 
 
 ## Summary
